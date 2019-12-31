@@ -4,3 +4,4 @@ def add_func(n, x, y):
 
 def func2(s):
     return s + 3
+

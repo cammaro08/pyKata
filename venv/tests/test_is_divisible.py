@@ -8,7 +8,7 @@ class TestClass:
         pass
 
     def test2(self):
-        assert is_divisible.add_func(2, 3, 1) == 6
+        assert is_divisible.add_func(2, 3, 1) == 7
 
     def test3(self):
         assert is_divisible.func2(2) == 5
