@@ -1,7 +1,2 @@
-def add_func(n, x, y):
-    return x + y + n
-
-
-def func2(s):
-    return s + 3
-
+def func(n, x, y):
+    return (n % x == 0) & (n % y == 0)

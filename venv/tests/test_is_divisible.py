@@ -4,21 +4,10 @@ import is_divisible
 
 class TestClass:
 
-    def test1(self):
-        pass
-
-    def test2(self):
-        assert is_divisible.add_func(2, 3, 1) == 7
-
-    def test3(self):
-        assert is_divisible.func2(2) == 5
-        assert is_divisible.add_func(1, 1, 1) == 2
-
-    def test4(self):
-        assert is_divisible.func2(3) == 1
+    def test(self):
+        assert is_divisible.func(3, 3, 4) == False
+        assert is_divisible.func(12, 3, 4) == True
+        assert is_divisible.func(8, 3, 4) == False
+        assert is_divisible.func(48, 3, 4) == True
 
 
-    # Test.assert_equals(is_divisible(3,3,4),False)
-    # Test.assert_equals(is_divisible(12,3,4),True)
-    # Test.assert_equals(is_divisible(8,3,4),False)
-    # Test.assert_equals(is_divisible(48,3,4),True)
